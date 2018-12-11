@@ -11,3 +11,6 @@ Includes:
 * Reads and writes disk sectors
 * Setup for qemu debugging
 * Setup for bochs, albeit rusty
+
+For debugging, open two terminals and run 'make step' in one and 'make debug' in the other. The latter drops you into gdb so you can do 'hbreak LongMode' then 'cont' or the like.
+
