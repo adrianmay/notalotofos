@@ -469,11 +469,11 @@ LongMode:
 	call say
 	call EnableSse
 	call TestC
-	jmp Nirv
+;	jmp Nirv
 	call PciFind
 	call PciPrintFound
 	call ReadDisk
-;	call ShowDisk
+	call ShowDisk
 	call MutateDisk
 	call WriteDisk
 Nirv:	
