@@ -14,3 +14,4 @@ Includes:
 
 For debugging, open two terminals and run 'make step' in one and 'make debug' in the other. The latter drops you into gdb so you can do 'hbreak LongMode' then 'cont' or the like.
 
+Credit are owed to more people than I can remember.
